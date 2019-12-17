@@ -1,0 +1,11 @@
+[Unit]
+Description=Moxa Monitor
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/monitoring/monitor.py
+Restart=Always
+
+[Install]
+WantedBy=multi-user.target

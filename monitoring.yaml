@@ -1,0 +1,98 @@
+
+di_channels:
+  0:
+    start_state: 0
+    label: 'Tower Lights'
+    alert_on_low: true
+    alert_low_message: 'Tower Light Failure Clear'
+    alert_on_high: true
+    alert_high_message: 'Tower Light Failure'
+    alert_interval: 0
+    alert_recipients:
+            - 'email1@...com'
+            - 'email2@...com'
+ 
+  1:
+    start_state: 0
+    label: 'Generator'
+    alert_on_low: true
+    alert_low_message: 'Generator Failure '
+    alert_on_high: true
+    alert_high_message: 'Generator Failure Clear'
+    alert_interval: 0
+    alert_recipients:
+            - 'email1@...com'
+            - 'email2@...com'
+ 
+  2:
+    start_state: 1
+    label: 'Entry Door'
+    alert_on_low: true
+    alert_low_message: 'Entry Door Open'
+    alert_on_high: false
+    alert_high_message: 'Entry Door Closed'
+    alert_interval: 600
+    alert_recipients:
+            - 'email1@...com'
+            - 'email2@...com'
+ 
+  3:
+    start_state: 0
+    label: 'High Building Temp'
+    alert_on_low: true
+    alert_low_message: 'High Building Temp Clear'
+    alert_on_high: true
+    alert_high_message: 'High Building Temp'
+    alert_interval: 3600
+    alert_recipients:
+            - 'email1@...com'
+            - 'email2@...com'
+ 
+  4:
+    start_state: 0
+    label: 'Low Building Temp'
+    alert_on_low: true
+    alert_low_message: 'Low Building Temp Clear'
+    alert_on_high: true
+    alert_high_message: 'Low Building Temp'
+    alert_interval: 3600
+    alert_recipients:
+            - 'email1@...com'
+            - 'email2@...com'
+ 
+  5:
+    start_state: 0
+    label: 'Channel 5'
+    alert_on_low: true
+    alert_low_message: 'Channel 5 low message'
+    alert_on_high: true
+    alert_high_message: 'Channel 5 high message'
+    alert_interval: 0
+    alert_recipients:
+            - 'email1@...com'
+            - 'email2@...com'
+ 
+  6:
+    start_state: 0
+    label: 'Channel 6'
+    alert_on_low: true
+    alert_low_message: 'Channel 6 low message'
+    alert_on_high: true
+    alert_high_message: 'Channel 6 high message'
+    alert_interval: 0
+    alert_recipients:
+            - 'email1@...com'
+            - 'email2@...com'
+ 
+  7:
+    start_state: 0
+    label: 'Channel 7'
+    alert_on_low: true
+    alert_low_message: 'Channel 7 low message'
+    alert_on_high: true
+    alert_high_message: 'Channel 7 high message'
+    alert_interval: 90
+    alert_recipients:
+            - 'email1@...com'
+            - 'email2@...com'
+ 
